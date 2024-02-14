@@ -16,7 +16,7 @@ st.write(
 st.sidebar.write("## Upload and download :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
-MODEL_PATH = "model2"
+MODEL_PATH = "model"
 CLASS_NAMES = ['bacterial_spot', 'early_blight', 'healthy_leaf', 'late_blight', 'leaf_mold', 'tomato_mosaic_virus']
 model = load_model(MODEL_PATH)
 
